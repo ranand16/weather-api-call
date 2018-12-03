@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Api call assignment</title>
+    <style>
+        .container{
+            position: relative;
+
+            background: red;
+            width: 800pt;
+            height: 500pt;
+        }
+        .sub-container{
+            position: absolute;
+            right: 50px;
+            bottom: 50px;
+            width: 300px;
+            height: 300px;
+            background: green;
+            padding-left: 10px;    
+            padding-top: 10px;    
+        }
+        #renderData{
+            overflow: scroll;
+            width: 500px;
+        }
+        #renderCloud{
+            margin-right: 50px;
+            margin-bottom: 50px;
+            float: right;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="renderData">
+
+        </div>
+        <div id="renderCloud">
+            <img src="" alt="">
+        </div>    
+        <div class="sub-container">
+            <div><span id="">Weather: </span><span id="weather"></span></div>  
+            <div><span id="">Temperature: </span><span id="temp"></span></div>  
+            <div><span id="">Pressure: </span>><span id="pressure"></span></div>  
+            <div><span id="">Minimum Temperature: </span><span id="temp_min"></span></div>  
+            <div><span id="">Maximum Temperature: </span><span id="temp_max"></span></div>  
+            <div><span id="">Wind speed: </span><span id="wind_speed"></span></div>  
+            <div><span id="">Counntry: </span><span id="country"></span></div>   
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</html>
